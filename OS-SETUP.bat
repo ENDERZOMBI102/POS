@@ -80,12 +80,18 @@ ren promptOS.* promptOS.zip
 if not exist unzip.exe goto err
 if not exist promptOS.zip goto err
 echo download complete!
+    echo.>>POSetup.log
+    echo. unzipping files >> POSetup.log
 unzip promptOS.zip
 del promptOS.zip
+    echo.>>POSetup.log
+    echo. files was unzziped! >> POSetup.log
 echo install complete!
 title Setup POS-COMPLETE
 echo Press any key to close this Setup and start the POS
 pause>nul
+    echo.>>POSetup.log
+    echo. install completed >> POSetup.log
 start START_OS
 exit
 
@@ -93,6 +99,8 @@ exit
 title Setup POS-ERROR!
 cls
 echo error! download failed! error!
+    echo.>>POSetup.log
+    echo. errore nel download >> POSetup.log
 pause
 exit
 
