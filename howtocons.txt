@@ -1,0 +1,11 @@
+allora.... i dati sono questi.
+ogni comando il goto deve essere:
+com.example
+com indica che è un comando
+example è l'ID del comando (il nome)
+DEVE esere fatto cosi' per avere un po' d'ordine
+ogni comando deve essere distanziato di una riga
+dopo ogni script BISOGNA avere un goto Consolle
+ogni "if "%userinp%"=="4" goto guest1" e' una
+possibilita' di creare un nuovo comando
+domande? chiedimi!

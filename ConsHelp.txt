@@ -1,0 +1,10 @@
+Consolle Help v.1.0:
+?: mostra questa pagina d'aiuto
+help: mostra questa pagina d'aiuto
+shutup: riavvia il Computer
+reboot: riavvia il Computer
+time: ottiene e visualizza il tempo del Computer
+ora: ottiene e visualizza il tempo del Computer
+proghelp: da aiuto su come deve essere strutturata la programmazione di questo programma
+text: apre l'editor di testo con un file nuovo
+nuuid: genera un nuovo UUID
