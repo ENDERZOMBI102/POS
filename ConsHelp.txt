@@ -8,3 +8,4 @@ ora: ottiene e visualizza il tempo del Computer
 proghelp: da aiuto su come deve essere strutturata la programmazione di questo programma
 text: apre l'editor di testo con un file nuovo
 nuuid: genera un nuovo UUID
+flock: apre il Folder Locker
