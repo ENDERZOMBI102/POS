@@ -111,3 +111,4 @@ echo for start the setup.
 echo press any key to retest the connection
 pause>nul
 goto test
+exit
