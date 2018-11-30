@@ -1,4 +1,4 @@
-Consolle Help v.1.0:
+Consolle Help v.1.1:
 ?: mostra questa pagina d'aiuto
 help: mostra questa pagina d'aiuto
 shutup: riavvia il Computer
@@ -8,4 +8,6 @@ ora: ottiene e visualizza il tempo del Computer
 proghelp: da aiuto su come deve essere strutturata la programmazione di questo programma
 text: apre l'editor di testo con un file nuovo
 nuuid: genera un nuovo UUID
-flock: apre il Folder Locker
+flock: flock-app apre l'app Folder Locker, si può anche usare flock-lock create unlock e verify per 
+       bloccare, creare, sbloccare e verificare la cartella senza aprire l'app
+clear: pulisce la cronologia della consolle
