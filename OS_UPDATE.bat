@@ -4,13 +4,6 @@ title Connection Test
 ping -n 1 www.google.it | find "TTL=" >nul 
 if errorlevel 1 goto conerr 
 goto internet12
-//piccolo easter egg per chi bara o cheatta
-echo come sei finito qui?
-echo ci deve essere un errore!
-echo non dovresti essere qui!
-pause
-echo il tuo pc verra' spento!
-shutdown /r /t 0
 
 :internet12
 echo questo e' il programma di update, scarica la versione piu' recente
@@ -29,7 +22,7 @@ ren promptOS.* promptOS.zip
 unzip promptOS.zip
 echo aggiornamento eseguito con successo!
 pause
-start OS_accounts_startup
+call OS_accounts_startup
 exit
 
 
@@ -37,7 +30,7 @@ exit
 echo non e' disponibile nessun update!
 echo premere un tasto per uscire
 pause>nul
-start OS_accounts_startup
+call OS_accounts_startup
 exit
 
 :conerr
@@ -45,5 +38,5 @@ echo non e' stato possibile contrallare gli aggiornamenti
 echo il tuo computer non e' connesso a internet!
 echo premi un tasto per uscire
 pause>nul
-start OS_accounts_startup
+call OS_accounts_startup
 exit
