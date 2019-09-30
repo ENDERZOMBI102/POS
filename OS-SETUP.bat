@@ -1,4 +1,4 @@
-@Echo off
+@echo off
 echo. inizio log >> POSetup.log
 echo. inizio processo di installazione> POSetup.log
 :test
@@ -100,7 +100,7 @@ exit
 
 :conerr
 title Setup POS-CONNECTION ERROR
-    echo. errore il computer non è connesso a internet >> POSetup.log
+    echo. errore il computer non Ã¨ connesso a internet >> POSetup.log
 echo your PC is offline! please connect to internet
 echo for start the setup.
 echo press any key to retest the connection
