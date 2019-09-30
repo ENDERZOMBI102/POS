@@ -70,7 +70,7 @@ echo creating folder...
 mkdir PromptOS
 cd PromptOS
 echo downloading files..
-    echo. downloading files >> POSetup.log
+    echo. downloading files >> ../POSetup.log
 certutil.exe -urlcache -split -f "https://github.com/ENDERZOMBI102/POS/raw/master/promptOS.zip" promptOS.zip
 certutil.exe -urlcache -split -f "https://github.com/ENDERZOMBI102/POS/raw/master/unzip.exe" unzip.exe
 ren unzip.* unzip.exe
@@ -78,15 +78,15 @@ ren promptOS.* promptOS.zip
 if not exist unzip.exe goto err
 if not exist promptOS.zip goto err
 echo download complete!
-    echo. unzipping files >> POSetup.log
+    echo. unzipping files >> ../POSetup.log
 unzip promptOS.zip
 del promptOS.zip
-    echo. files was unzziped! >> POSetup.log
+    echo. files was unzziped! >> ../POSetup.log
 echo install complete!
 title Setup POS-COMPLETE
 echo Press any key to close this Setup and start the POS
 pause>nul
-    echo. install completed >> POSetup.log
+    echo. install completed >> ../POSetup.log
 start START_OS
 exit
 
